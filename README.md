@@ -1,10 +1,26 @@
+# Online Learning of Object-Centric Symbolic Models in Partially Observable Environments
+<!-- Define badges -->
+<div style="display: flex; gap: 10px;">
+   
+  <a href="https://opensource.org/licenses/MIT" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" height="20"/></a>
 
+</div>
+
+
+Code for the ICAART 2026 paper "Online Learning of Object-Centric Symbolic Models in Partially Observable Environments". 
+L. Lamanna, L. Serafini, A. Saffiotti and P. Traverso
 
 ## Installation
 
+1. Clone this repository:
+```
+git clone https://github.com/LamannaLeonardo/OLOM.git
+```
+
 1. Create a Python `3.10` environment; for example with conda:
 ```
-conda create -n olom python=3.10
+cd OLOM && conda create -n olom python=3.10
 ```
 
 2. Install dependencies:
@@ -35,3 +51,17 @@ The subfolder `datasets/train` contains the environments used for hyperparameter
 subfolder `datasets/fine-tune` the ones in the experimental evaluation.
 The script used for generating all environments can be inspected in `utils/generators` and the
 generation process is reproducible.
+
+## Citations
+```
+@article{lamanna2026online,
+  title={Online Learning of Object-Centric Symbolic Models in Partially Observable Environments},
+  author={Lamanna, Leonardo and Serafini, Luciano and Saffiotti, Alessandro and Traverso, Paolo},
+  booktitle={Proceedings of the International Conference on Agents and Artificial Intelligence},
+  volume={18},
+  year={2026}
+}
+```
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
