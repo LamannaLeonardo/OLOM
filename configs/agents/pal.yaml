@@ -1,0 +1,7 @@
+agent: PALAgent
+method: OLOM
+planner: POUCT
+train:
+  learning_steps: 2000
+  hyperparameters:
+    history_len: 50

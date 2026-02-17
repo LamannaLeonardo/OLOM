@@ -1,0 +1,20 @@
+env_id: MNISTExib-v0
+actuation_noise: 0.15
+rot_degrees: 180
+observation_shape: 40
+operators:
+
+  - name: "stop"
+    types: []
+
+  - name: "right"
+    types: []
+
+  - name: "left"
+    types: []
+
+  - name: "rotate"
+    types: ["object"]
+
+  - name: "flip"
+    types: ["object"]

@@ -1,0 +1,3 @@
+agent: OracleAgent
+method: Oracle
+planner: POUCT

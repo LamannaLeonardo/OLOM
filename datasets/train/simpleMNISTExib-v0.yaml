@@ -1,0 +1,980 @@
+- _state:
+    agents:
+      agent0:
+        pos: 1
+    objects:
+      d0-0:
+        flipped: 0
+        pos: 0
+        rotation: 180
+      d4-0:
+        flipped: 0
+        pos: 1
+        rotation: 180
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 0
+    objects:
+      d2-0:
+        flipped: 0
+        pos: 1
+        rotation: 180
+      d6-0:
+        flipped: 1
+        pos: 0
+        rotation: 180
+  goal_states:
+  - objects:
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d6-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 1
+    objects:
+      d8-0:
+        flipped: 0
+        pos: 1
+        rotation: 0
+      d9-0:
+        flipped: 0
+        pos: 0
+        rotation: 0
+  goal_states:
+  - objects:
+      d8-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 0
+    objects:
+      d5-0:
+        flipped: 0
+        pos: 1
+        rotation: 0
+      d9-0:
+        flipped: 0
+        pos: 0
+        rotation: 180
+  goal_states:
+  - objects:
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 3
+    objects:
+      d0-0:
+        flipped: 0
+        pos: 0
+        rotation: 0
+      d1-0:
+        flipped: 1
+        pos: 1
+        rotation: 180
+      d5-0:
+        flipped: 0
+        pos: 3
+        rotation: 0
+      d9-0:
+        flipped: 0
+        pos: 2
+        rotation: 180
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 1
+    objects:
+      d0-0:
+        flipped: 1
+        pos: 2
+        rotation: 180
+      d4-0:
+        flipped: 0
+        pos: 0
+        rotation: 180
+      d5-0:
+        flipped: 1
+        pos: 3
+        rotation: 0
+      d9-0:
+        flipped: 1
+        pos: 1
+        rotation: 0
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 2
+    objects:
+      d0-0:
+        flipped: 0
+        pos: 1
+        rotation: 180
+      d2-0:
+        flipped: 1
+        pos: 3
+        rotation: 180
+      d4-0:
+        flipped: 1
+        pos: 0
+        rotation: 180
+      d9-0:
+        flipped: 0
+        pos: 2
+        rotation: 0
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 0
+    objects:
+      d0-0:
+        flipped: 0
+        pos: 0
+        rotation: 0
+      d2-0:
+        flipped: 1
+        pos: 1
+        rotation: 180
+      d5-0:
+        flipped: 0
+        pos: 2
+        rotation: 180
+      d8-0:
+        flipped: 1
+        pos: 3
+        rotation: 180
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d8-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 4
+    objects:
+      d0-0:
+        flipped: 0
+        pos: 5
+        rotation: 180
+      d1-0:
+        flipped: 0
+        pos: 1
+        rotation: 0
+      d2-0:
+        flipped: 1
+        pos: 2
+        rotation: 180
+      d4-0:
+        flipped: 1
+        pos: 4
+        rotation: 180
+      d5-0:
+        flipped: 1
+        pos: 3
+        rotation: 180
+      d7-0:
+        flipped: 0
+        pos: 0
+        rotation: 0
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d7-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 0
+    objects:
+      d1-0:
+        flipped: 0
+        pos: 1
+        rotation: 180
+      d2-0:
+        flipped: 1
+        pos: 2
+        rotation: 0
+      d4-0:
+        flipped: 0
+        pos: 4
+        rotation: 180
+      d5-0:
+        flipped: 1
+        pos: 0
+        rotation: 180
+      d8-0:
+        flipped: 0
+        pos: 3
+        rotation: 0
+      d9-0:
+        flipped: 0
+        pos: 5
+        rotation: 0
+  goal_states:
+  - objects:
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d8-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 1
+    objects:
+      d0-0:
+        flipped: 1
+        pos: 1
+        rotation: 180
+      d1-0:
+        flipped: 1
+        pos: 0
+        rotation: 180
+      d3-0:
+        flipped: 0
+        pos: 5
+        rotation: 180
+      d4-0:
+        flipped: 1
+        pos: 2
+        rotation: 180
+      d5-0:
+        flipped: 0
+        pos: 3
+        rotation: 0
+      d9-0:
+        flipped: 1
+        pos: 4
+        rotation: 180
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d3-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 3
+    objects:
+      d0-0:
+        flipped: 1
+        pos: 3
+        rotation: 180
+      d2-0:
+        flipped: 1
+        pos: 1
+        rotation: 180
+      d3-0:
+        flipped: 1
+        pos: 2
+        rotation: 0
+      d4-0:
+        flipped: 1
+        pos: 0
+        rotation: 0
+      d7-0:
+        flipped: 0
+        pos: 4
+        rotation: 0
+      d9-0:
+        flipped: 0
+        pos: 5
+        rotation: 180
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d3-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d7-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 0
+    objects:
+      d0-0:
+        flipped: 0
+        pos: 7
+        rotation: 180
+      d1-0:
+        flipped: 0
+        pos: 0
+        rotation: 180
+      d2-0:
+        flipped: 0
+        pos: 4
+        rotation: 180
+      d4-0:
+        flipped: 1
+        pos: 5
+        rotation: 180
+      d5-0:
+        flipped: 1
+        pos: 6
+        rotation: 0
+      d6-0:
+        flipped: 1
+        pos: 3
+        rotation: 0
+      d7-0:
+        flipped: 1
+        pos: 1
+        rotation: 180
+      d9-0:
+        flipped: 0
+        pos: 2
+        rotation: 0
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d6-0:
+        flipped: 0
+        rotation: 0
+      d7-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 2
+    objects:
+      d0-0:
+        flipped: 1
+        pos: 0
+        rotation: 180
+      d1-0:
+        flipped: 1
+        pos: 4
+        rotation: 180
+      d3-0:
+        flipped: 0
+        pos: 7
+        rotation: 0
+      d4-0:
+        flipped: 1
+        pos: 1
+        rotation: 0
+      d5-0:
+        flipped: 0
+        pos: 5
+        rotation: 180
+      d6-0:
+        flipped: 1
+        pos: 2
+        rotation: 180
+      d7-0:
+        flipped: 1
+        pos: 3
+        rotation: 180
+      d8-0:
+        flipped: 0
+        pos: 6
+        rotation: 180
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d3-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d6-0:
+        flipped: 0
+        rotation: 0
+      d7-0:
+        flipped: 0
+        rotation: 0
+      d8-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 1
+    objects:
+      d0-0:
+        flipped: 1
+        pos: 6
+        rotation: 0
+      d1-0:
+        flipped: 1
+        pos: 5
+        rotation: 0
+      d2-0:
+        flipped: 1
+        pos: 1
+        rotation: 180
+      d3-0:
+        flipped: 0
+        pos: 4
+        rotation: 180
+      d4-0:
+        flipped: 1
+        pos: 3
+        rotation: 0
+      d6-0:
+        flipped: 0
+        pos: 2
+        rotation: 0
+      d7-0:
+        flipped: 1
+        pos: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        pos: 7
+        rotation: 180
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d3-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d6-0:
+        flipped: 0
+        rotation: 0
+      d7-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 3
+    objects:
+      d0-0:
+        flipped: 1
+        pos: 1
+        rotation: 0
+      d1-0:
+        flipped: 0
+        pos: 4
+        rotation: 180
+      d2-0:
+        flipped: 0
+        pos: 6
+        rotation: 0
+      d5-0:
+        flipped: 1
+        pos: 2
+        rotation: 0
+      d6-0:
+        flipped: 0
+        pos: 7
+        rotation: 0
+      d7-0:
+        flipped: 0
+        pos: 3
+        rotation: 180
+      d8-0:
+        flipped: 0
+        pos: 5
+        rotation: 0
+      d9-0:
+        flipped: 0
+        pos: 0
+        rotation: 180
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d6-0:
+        flipped: 0
+        rotation: 0
+      d7-0:
+        flipped: 0
+        rotation: 0
+      d8-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 7
+    objects:
+      d0-0:
+        flipped: 1
+        pos: 4
+        rotation: 180
+      d1-0:
+        flipped: 0
+        pos: 3
+        rotation: 0
+      d2-0:
+        flipped: 1
+        pos: 0
+        rotation: 180
+      d3-0:
+        flipped: 1
+        pos: 1
+        rotation: 0
+      d4-0:
+        flipped: 1
+        pos: 5
+        rotation: 0
+      d5-0:
+        flipped: 1
+        pos: 2
+        rotation: 180
+      d6-0:
+        flipped: 1
+        pos: 6
+        rotation: 0
+      d7-0:
+        flipped: 0
+        pos: 9
+        rotation: 180
+      d8-0:
+        flipped: 0
+        pos: 7
+        rotation: 0
+      d9-0:
+        flipped: 1
+        pos: 8
+        rotation: 0
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d3-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d6-0:
+        flipped: 0
+        rotation: 0
+      d7-0:
+        flipped: 0
+        rotation: 0
+      d8-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 3
+    objects:
+      d0-0:
+        flipped: 1
+        pos: 4
+        rotation: 180
+      d1-0:
+        flipped: 1
+        pos: 9
+        rotation: 180
+      d2-0:
+        flipped: 1
+        pos: 8
+        rotation: 180
+      d3-0:
+        flipped: 1
+        pos: 1
+        rotation: 0
+      d4-0:
+        flipped: 1
+        pos: 7
+        rotation: 180
+      d5-0:
+        flipped: 0
+        pos: 3
+        rotation: 0
+      d6-0:
+        flipped: 0
+        pos: 6
+        rotation: 180
+      d7-0:
+        flipped: 0
+        pos: 0
+        rotation: 0
+      d8-0:
+        flipped: 1
+        pos: 5
+        rotation: 180
+      d9-0:
+        flipped: 0
+        pos: 2
+        rotation: 0
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d3-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d6-0:
+        flipped: 0
+        rotation: 0
+      d7-0:
+        flipped: 0
+        rotation: 0
+      d8-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 6
+    objects:
+      d0-0:
+        flipped: 0
+        pos: 1
+        rotation: 180
+      d1-0:
+        flipped: 1
+        pos: 3
+        rotation: 180
+      d2-0:
+        flipped: 1
+        pos: 8
+        rotation: 0
+      d3-0:
+        flipped: 0
+        pos: 9
+        rotation: 180
+      d4-0:
+        flipped: 1
+        pos: 7
+        rotation: 0
+      d5-0:
+        flipped: 0
+        pos: 2
+        rotation: 180
+      d6-0:
+        flipped: 1
+        pos: 6
+        rotation: 180
+      d7-0:
+        flipped: 0
+        pos: 0
+        rotation: 0
+      d8-0:
+        flipped: 0
+        pos: 5
+        rotation: 180
+      d9-0:
+        flipped: 0
+        pos: 4
+        rotation: 180
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d3-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d6-0:
+        flipped: 0
+        rotation: 0
+      d7-0:
+        flipped: 0
+        rotation: 0
+      d8-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0
+- _state:
+    agents:
+      agent0:
+        pos: 0
+    objects:
+      d0-0:
+        flipped: 0
+        pos: 3
+        rotation: 0
+      d1-0:
+        flipped: 1
+        pos: 9
+        rotation: 180
+      d2-0:
+        flipped: 0
+        pos: 5
+        rotation: 180
+      d3-0:
+        flipped: 1
+        pos: 2
+        rotation: 180
+      d4-0:
+        flipped: 0
+        pos: 8
+        rotation: 180
+      d5-0:
+        flipped: 0
+        pos: 4
+        rotation: 0
+      d6-0:
+        flipped: 1
+        pos: 6
+        rotation: 180
+      d7-0:
+        flipped: 0
+        pos: 1
+        rotation: 0
+      d8-0:
+        flipped: 0
+        pos: 0
+        rotation: 0
+      d9-0:
+        flipped: 1
+        pos: 7
+        rotation: 180
+  goal_states:
+  - objects:
+      d0-0:
+        flipped: 0
+        rotation: 0
+      d1-0:
+        flipped: 0
+        rotation: 0
+      d2-0:
+        flipped: 0
+        rotation: 0
+      d3-0:
+        flipped: 0
+        rotation: 0
+      d4-0:
+        flipped: 0
+        rotation: 0
+      d5-0:
+        flipped: 0
+        rotation: 0
+      d6-0:
+        flipped: 0
+        rotation: 0
+      d7-0:
+        flipped: 0
+        rotation: 0
+      d8-0:
+        flipped: 0
+        rotation: 0
+      d9-0:
+        flipped: 0
+        rotation: 0

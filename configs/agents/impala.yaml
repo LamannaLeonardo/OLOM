@@ -1,0 +1,89 @@
+agent: RLlibAgent
+method: IMPALA
+train:
+  learning_steps: 100000
+  # Default hyperparameters used during training, note these are overridden when loading
+  # the hyperparameters from a Ray Tuner experiment
+  hyperparameters:
+    train_batch_size_per_learner: 512
+ray_config:
+  # Define computational resources necessary for running a single trial (or training process)
+  resources:
+#    - CPU: 8  # local bundle
+#    - CPU: 32  # train/test bundle
+#      GPU: 1
+    - CPU: 8  # tune bundle
+      GPU: 0.33
+  learners:
+    num_learners: 0  # concurrent training with a data batch for each learner
+    num_gpus_per_learner: 1
+  env_runners:
+    num_env_runners: 0  # 0 --> run in local worker
+    num_envs_per_env_runner: 8  # for collecting rollouts
+    gym_env_vectorize_mode: "ASYNC"
+    # IMPALA SPECIFIC CONFIGURATION
+    rollout_fragment_length: 'auto'
+  rl_module:
+    model_config:
+      fcnet_hiddens: [512, 512]  # Example hidden layer sizes
+      fcnet_activation: "relu"   # Activation function
+      head_fcnet_hiddens: [256]
+      use_lstm: True  # True --> Recurrent PPO
+  evaluation:
+    evaluation_interval: 0  # number of call to train() function before evaluation
+    evaluation_num_env_runners: 0  # 0 --> run in the algorithm process
+tune:
+  # Define resources for every tune trial
+  config:
+    num_samples: 100  # number of trials
+    max_concurrent_trials: 8
+    reuse_actors: True
+    mode: max
+    metric: val_episode_return_mean
+  search_space:
+    conditions: []
+    forbiddens: []
+    hyperparameters:
+    - name: gamma
+      type: categorical
+      choices: [.9, .95, .99, .999]
+      default_value: 0.99
+      weights: null
+    - name: lr
+      type: categorical
+      choices: [0.001, 0.0005, 0.0001, 0.00001]
+      default_value: 0.0005
+      weights: null
+    - name: num_epochs
+      type: categorical
+      choices: [1, 5, 10, 20, 30]
+      default_value: 1
+      weights: null
+    - name: train_batch_size_per_learner
+      type: categorical
+      choices: [100, 500, 1000, 2000, 4000]
+      default_value: 500
+      weights: null
+    # IMPALA specific hyperparameters
+    - name: vtrace_clip_rho_threshold
+      type: categorical
+      choices: [.1, .2, .5, 1.]
+      default_value: 1.
+      weights: null
+    - name: vtrace_clip_pg_rho_threshold
+      type: categorical
+      choices: [.1, .2, .5, 1.]
+      default_value: 1.
+      weights: null
+    # LSTM specific hyperparameters
+    - name: model/max_seq_len
+      type: categorical
+      choices: [5, 10, 20, 30]
+      default_value: 20
+      weights: null
+    - name: model/lstm_cell_size
+      type: categorical
+      choices: [64, 128, 256, 512]
+      default_value: 256
+      weights: null
+    name: null
